@@ -1,6 +1,6 @@
-# Bernardo Nilson
+# RoboLab Restinga Website
 
-- **Acesso:** [https://bernardonilson.github.io](https://bernardonilson.github.io)
+- **Acesso:** [https://robolab-restinga.github.io](https://robolab-restinga.github.io) - INVÁLIDO, no momento
 
 Jekyll é um gerador de sites estáticos, escrito em Ruby. Ele é usado para criar sites, sem a necessidade de um servidor web dinâmico, e é utilizado por grandes companhias, em sites como [Twitch Developer Documentation](https://dev.twitch.tv/), [Ruby on Rails](https://rubyonrails.org/) e [Sketch](https://www.sketch.com/).
 
