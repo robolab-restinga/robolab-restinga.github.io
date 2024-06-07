@@ -1,0 +1,296 @@
+/* CONFIGURAÇÕES GERAIS */
+:root {
+  --primary-color: rgb(252, 252, 255);
+  /* --hover-color: rgb(213, 223, 255); */
+  --hover-color: rgb(225, 225, 234);
+  --secondary-color: #4167e7;
+  --text-color: #141313;
+  --text-light-color: #2e2e2e;
+  font-size: 17px;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(171, 171, 171);
+}
+
+/* DEFAULT PAGE */
+* {
+  font-family: "Urbanist", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* PAGES */
+
+main,
+footer {
+  width: 60%;
+  max-width: 1450px;
+  margin: auto;
+  padding: 0 auto;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.navbar {
+  padding: 1rem 3rem !important;
+  background-color: var(--primary-color);
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.5rem !important;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.collapse,
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.nav-link {
+  color: var(--text-color) !important;
+}
+
+.nav-item:hover a,
+.brand:hover,
+.experience-title:hover {
+  text-shadow: 0 0 3px var(--hover-color);
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.nav-item:hover a {
+  color: var(--secondary-color) !important;
+}
+
+.nav-item:hover .flag {
+  text-shadow: 0 0 2px var(--text-light-color);
+  text-decoration: none;
+  transition: none;
+}
+
+/* SECTION */
+.section {
+  margin: 7rem auto;
+}
+
+.section-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.section-img img,
+.carousel {
+  border-radius: 2rem;
+  max-width: 30rem;
+  height: auto;
+  box-shadow: -10px 10px 20px var(--hover-color);
+}
+
+.section-img img:hover,
+.carousel:hover {
+  box-shadow: -10px 10px 25px 5px var(--hover-color);
+  transition: 0.4s;
+}
+
+/* HOME */
+
+/* ABOUT */
+
+.about .section-img img {
+  box-shadow: none;
+}
+
+.about .section-img img,
+.about .carousel {
+  max-width: 20rem;
+}
+
+/* EXPERIENCE */
+.experience-title {
+  font-weight: bold;
+}
+
+.experience-company {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.experience-span {
+  color: var(--text-light-color);
+  font-style: italic;
+  display: flex;
+  justify-content: end;
+}
+
+.experience-description {
+  color: var(--text-light-color);
+}
+
+.card:hover {
+  font-weight: 450;
+  box-shadow: 0 0 15px var(--hover-color);
+  transition: 0.3s;
+}
+/* WORKS */
+.img-fluid {
+  border-radius: 1rem;
+}
+
+.works .card-title {
+  font-weight: bold;
+}
+
+.works .card {
+  text-decoration: none;
+}
+
+.works .card:hover {
+  font-weight: normal;
+}
+
+.works .section-body {
+  align-items: start;
+  display: flex;
+  flex-direction: row;
+}
+
+.works .section-body a {
+  width: 33%;
+}
+
+/* EDUCATION */
+.education-name {
+  font-weight: bold;
+}
+
+.education-school {
+  color: var(--text-light-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.education-span {
+  color: var(--text-light-color);
+  font-style: italic;
+  display: flex;
+  justify-content: end;
+}
+
+/* CONTACT */
+
+.contact .section-img img {
+  border-radius: 10rem;
+  max-width: 10rem;
+}
+
+.contact .section-body {
+  display: block;
+  /* flex-direction: column; */
+  align-items: start;
+  /* gap: 2rem; */
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons i {
+  font-size: 2rem;
+  color: var(--text-light-color);
+}
+
+/* MOBILE */
+@media screen and (max-width: 700px) {
+  /* DEFAULT PAGE CHANGES */
+  main,
+  footer {
+    width: 98%;
+  }
+
+  .about .section-img img,
+  .about .carousel {
+    max-width: 100% !important;
+  }
+
+  .about .section-body {
+    flex-direction: column;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 1000px) {
+  /* DEFAULT PAGE CHANGES */
+  main,
+  footer {
+    width: 90%;
+  }
+
+  .section-img img,
+  .carousel {
+    max-width: 10rem;
+    border-radius: 10rem;
+  }
+
+  .about .section-img img,
+  .about .carousel {
+    max-width: 15rem;
+    border-radius: 2rem;
+  }
+
+  .home .section-body {
+    flex-direction: column-reverse;
+  }
+
+  .works .section-body {
+    flex-direction: column;
+  }
+
+  .works .section-body a {
+    width: 100%;
+  }
+}
+
+/* NOTEBOOK */
+@media screen and (max-width: 1500px) {
+  /* DEFAULT PAGE CHANGES */
+  main,
+  footer {
+    width: 70%;
+  }
+
+  .section-img img,
+  .carousel {
+    max-width: 25rem;
+  }
+}
+
+/* NOTEBOOK MENOR */
+@media screen and (max-width: 1200px) {
+  /* DEFAULT PAGE CHANGES */
+  main,
+  footer {
+    width: 80%;
+  }
+
+  .section-img img,
+  .carousel {
+    max-width: 20rem;
+  }
+}
