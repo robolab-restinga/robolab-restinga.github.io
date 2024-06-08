@@ -1,41 +1,28 @@
 ---
 layout: default
-lang: pt
 
-intro:
-  title: Prazer, meu nome é <b>Bernardo Nilson</b>!
-  text: >-
-    Fico feliz em ver você por aqui. Sou estudante de <b>Ciência da Computação</b> na PUCRS e formado Técnico em Eletrônica pelo IFRS. Minhas habilidades e interesses se concentram em <b>Software Engineering</b> e <b>Data Science</b>. Quer saber mais sobre mim? Me acompanhe!
+home:
+  title: "Bem-vindo ao RoboLab! 🤖"
+  description: "Laboratório de Robótica Educacional"
 
-about:
-  title: Mas antes, como eu sou <b>fora do trabalho</b>?
-  text: >-
-    Antes de entrar no âmbito profissional, quero te contar um pouco do meu lado pessoal: Sou uma pessoa calma e paciente, gosto de estar ao lado das pessoas que me apoiam e me fortalecem. Sou gaúcho, de Porto Alegre. Valorizo bastante o meu tempo livre, seja passeando na Orla do Guaíba, tomando um chimarrão no parque, pedalando ou cozinhando.
-
-experience:
-  title: "Acompanhe minhas últimas <b>experiências</b>:"
-
-works:
-  title: Quais são os meus <b>principais projetos</b> em TI?
-  call: Confira aqui!
-
-education:
-  title: "Trajetório <b>acadêmica</b>"
-
-contact:
-  title: Gostou do meu perfil? Tem alguma sugestão?
-  text: Software Engineering e Data Science
-  call: Clique aqui para entrar em contato!
 ---
 
-{% include home.html %}
+## Sobre Nós
 
-{% include about.html %}
+O projeto **RoboLab** promove a constituição e promoção de um habitat para a prática da robótica educacional através de kits LEGO, Arduino, prototipação para impressão 3D e utilização de ferramentas virtuais. O objetivo é criar um ambiente criativo, inovador e empático que integra áreas como Matemática, Ciências, Física, Computação, Engenharia e Tecnologia, além de promover pesquisa, ensino e extensão, levando atividades e espaços propícios à troca de saberes até a comunidade.
 
-{% include experience.html %}
+## Nossa Missão
 
-{% include works.html %}
+Despertar o interesse da comunidade na área da robótica e da eletrônica, auxiliando na concepção inicial do pensamento computacional dos estudantes através de um aprendizado colaborativo, empático e dinâmico. Queremos desmistificar a percepção de que as áreas tecnológicas são difíceis ou inacessíveis.
 
-{% include education.html %}
+## Metodologia
 
-{% include contact.html %}
+- **Aprendizado Colaborativo:** Colocamos os aprendizes no centro do processo de aprendizagem.
+- **Metodologias Empáticas:** Utilizamos abordagens que acolhem a comunidade, especialmente aqueles sem contato prévio com robótica e eletrônica.
+- **Cultura Maker:** Fomentamos a cultura maker, incentivando os alunos a desenvolverem seus próprios projetos e "colocarem a mão na massa"! 
+
+## Atividades e Estrutura
+
+- **Montagem de Robôs e Circuitos:** Atividades colaborativas que têm mostrado grandes avanços no desenvolvimento dos estudantes.
+- **Participação em Competições:** Nos trouxe grandes reconhecimentos, sendo o mais recente uma vaga na Etapa Nacional OBR 2023 em Salvador Bahia.
+- **Laboratório de Robótica:** Localizado na sala 503 do Campus Restinga, o laboratório oferece um espaço para a criação e inovação, onde os alunos podem experimentar e desenvolver projetos práticos.

@@ -1,10 +1,6 @@
-{% if page.lang == 'en' %}
-{% assign base_url = '/en/'  %}
-{% else %}
-{% assign base_url = '/'  %}
-{% endif %}
+<!-- HEADER -->
 
-<nav class="navbar navbar-expand-lg sticky-top">
+<!-- <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
         <a class="brand" href="/">{{ site.title }}</a>
 
@@ -33,23 +29,36 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ base_url }}#contact">{{ site.nav.[page.lang].contact }}</a>
                 </li>
-                <li class="nav-item">
-                    <select id="dropdown" class="form-select">
-                        <option {% if page.lang == 'pt' %}selected{% endif %} value="/">PT</option>
-                        <option {% if page.lang == 'en' %}selected{% endif %} value="/en">EN</option>
-                    </select>
-                </li>
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
 
-<script>
-    document.getElementById("dropdown").addEventListener("change", function() {
-        var selectedOption = this.options[this.selectedIndex];
-        if (selectedOption.value !== "") {
-            window.location.href = selectedOption.value;
-        }
-    });
-</script>
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="{{ site.logo }}" alt="Logo" height="65" class="d-inline-block align-text-top">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Equipe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
     

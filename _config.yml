@@ -18,32 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bernardo Nilson
+title: RoboLab Restinga
 icon: /assets/img/icon.ico
-me: /assets/img/profile.jpeg
-email: 
-  personal: bernardonilson360@gmail.com
-  work: bernardo.nilson@pucrs.br
-phone: +55 51 98424-4706
+logo: /assets/img/logo.png
+email: robolab@restinga.ifrs.edu.br
+# phone:
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bernardonilson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://robolab-restinga.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-nav:
-  pt:
-    intro: Início
-    about: Sobre mim
-    experience: Experiência
-    works: Projetos
-    education: Educação
-    contact: Contato
-  en: 
-    intro: Home
-    about: About me
-    experience: Experience
-    works: Works
-    education: Education
-    contact: Contact
+
+# Nãp precisa alterar a partir daqui
 
 # Build settings
 theme: minima

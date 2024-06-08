@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!-- HEAD DA PÁGINA -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/img/icon.gif">
+    <link rel=stylesheet href="/assets/css/default.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <title>RoboLab Restinga</title>
+</head>
+
+<body>
+
+    <!-- NAVEGAÇÃO DO SITE -->
+    <!-- HEADER -->
+
+<!-- <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+        <a class="brand" href="/">RoboLab Restinga</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links"
+            aria-controls="links" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="links">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#works"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/img/logo.png" alt="Logo" height="65" class="d-inline-block align-text-top">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Equipe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+    
+
+    <!-- CORPO PRINCIPAL -->
+    <main>
+
+        <!-- HOME DA PÁGINA -->
+        <section class="section home">
+            <div class="section-body">
+                <!-- TEXTO -->
+                <div>
+                    <h1 class="section-title"></h1>
+                    <h3 class="section-description"></h3>
+                </div>
+
+                <!-- CAROUSEL DE IMAGENS -->
+                <div class="section-img">
+                    <div id="carousel" class="section-img carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <!-- <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button> -->
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/assets/img/galeria/logica_para_sensores_1.jpg"
+                                    class="d-block" alt="logica_para_sensores_1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/img/galeria/robot_1.jpg" class="d-block"
+                                    alt="robot_1">
+                            </div>
+                            <!-- <div class="carousel-item">
+                        <img src="/assets/img/galeria/bike.jpeg" class="d-block" alt="Cycling">
+                    </div> -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <p><img src="/assets/img/dashboard/dashboard_annual.png" alt="img" class="img-fluid" />
+<img src="/assets/img/dashboard/dashboard_month.png" alt="img" class="img-fluid" /></p>
+
+<h1 id="dashboard-de-dados-do-lablad"><strong>Dashboard de Dados do LabLAD</strong></h1>
+
+<p>No meu estágio no Laboratório de Alto Desempenho da PUCRS, retomei o desenvolvimento de um sistema para <strong>visualização das estatísticas de utilização dos recursos do laboratório</strong>.</p>
+
+<p>O objetivo do sistema é <strong>facilitar</strong> a demonstração da importância e impacto do LabLAD para com a Universidade, através de indicadores e gráficos interativos.</p>
+
+<p><strong>Antes</strong> do desenvolvimento do dashboard, os dados de utilização eram armazenados em planilhas Excel, o que dificultava a análise e visualização das informações.</p>
+
+<p>Para resolver esse problema, utilizei a linguagem de programação Python e as bibliotecas Pandas, Dash, Dash-Bootstrap-Components e Openpyxl para criar um dashboard interativo. O Bootstrap 5.0 foi utilizado para estilizar o dashboard.</p>
+
+<p>O dashboard <strong>permite a visualização de diversas estatísticas</strong>, como:</p>
+
+<ul>
+  <li>Monitoramento de demandas por recursos de processamento;</li>
+  <li>Quantidade de CPU utilizada por mês em Cluster ou em 24x7;</li>
+  <li>Quantidade de projetos utilizando os recursos do laboratório;</li>
+  <li>Nível de utilização de Storage.</li>
+</ul>
+
+<p>O dashboard também <strong>permite que os usuários filtrem os dados</strong> por grupo, projeto, data e tipo de recurso.</p>
+
+<p>Foi uma experiência gratificante poder desenvolver um sistema que contribui para a demonstração do impacto do LabLAD na pesquisa da Universidade. O dashboard já está em uso e está sendo bem avaliado.</p>
+
+<p>Aqui estão alguns dos <strong>benefícios</strong> do novo dashboard:</p>
+
+<ul>
+  <li>Visualização clara e intuitiva: O dashboard utiliza gráficos e indicadores interativos para facilitar a compreensão das informações.</li>
+  <li>Filtros avançados: Os usuários podem filtrar os dados por diferentes critérios, permitindo uma análise mais profunda das informações.</li>
+</ul>
+
+<p>Obrigado pela sua atenção!</p>
+
+    </main>
+
+    <!-- INFORMAÇÕES DE CONTATO -->
+    <footer class="footer">
+  <!-- <div class="footer-contact"> -->
+    <div class="container">
+      <h2 class="navbar-text">Sinta-se confortável para nos contatar por e-mail</h2>
+      <a type="button" class="btn btn-outline-light" href="mailto:robolab@restinga.ifrs.edu.br">Clique aqui!</a>
+    </div>
+
+    <div class="social">
+          <a href="https://www.youtube.com/@robolablaboratorioderoboti6134"><i class="bi bi-youtube"></i> YouTube do
+            RoboLab</a>
+          <a href="https://www.instagram.com/robolabrestinga/"><i class="bi bi-instagram"></i> Instagram do RoboLab</a>
+    </div>
+  <!-- </div> -->
+</footer>
+
+</body>
+
+</html>
