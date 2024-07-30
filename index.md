@@ -7,6 +7,9 @@ home:
 
 ---
 
+<!-- HOME DA PÁGINA -->
+{% include home.html %}
+
 ## Sobre Nós
 
 O projeto **RoboLab** promove a constituição e promoção de um habitat para a prática da robótica educacional através de kits LEGO, Arduino, prototipação para impressão 3D e utilização de ferramentas virtuais. O objetivo é criar um ambiente criativo, inovador e empático que integra áreas como Matemática, Ciências, Física, Computação, Engenharia e Tecnologia, além de promover pesquisa, ensino e extensão, levando atividades e espaços propícios à troca de saberes até a comunidade.

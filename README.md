@@ -18,7 +18,7 @@ Jekyll é um gerador de sites estáticos, escrito em Ruby. Ele é usado para cri
 
 # Instalação e Desenvolvimento
 
-1. Abra o [Jekyll](https://jekyllrb.com/docs/installation/) e siga os passos de instalação `para o seu OS.
+1. Abra o [Jekyll](https://jekyllrb.com/docs/installation/) e siga os passos de instalação para o seu OS.
 
     Pré-requisitos:
     
